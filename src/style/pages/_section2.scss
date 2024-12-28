@@ -124,6 +124,9 @@
   padding: 40px 0;
   min-height: 100vh;
   height: fit-content;
+  @include mobile{
+    min-height: unset
+  }
   .section3_title {
     @include f35(700);
     text-align: center;

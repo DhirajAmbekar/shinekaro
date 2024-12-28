@@ -291,6 +291,11 @@
   height: -moz-fit-content;
   height: fit-content;
 }
+@media screen and (max-width: 880px) {
+  .section3_main {
+    min-height: unset;
+  }
+}
 .section3_main .section3_title {
   font-size: 35px;
   line-height: 45px;
@@ -565,6 +570,7 @@
 @media screen and (max-width: 880px) {
   .section4_main .section4_boxes .section4_box .make_gap_secttion4 .section4_box_img {
     width: 100%;
+    border-radius: 20px;
   }
 }
 .section4_main .section4_boxes .section4_box .make_gap_secttion4 .section4_box_img iframe {
