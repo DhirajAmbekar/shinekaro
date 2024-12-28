@@ -287,7 +287,9 @@
 
 .section3_main {
   padding: 40px 0;
-  height: 100vh;
+  min-height: 100vh;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 .section3_main .section3_title {
   font-size: 35px;
@@ -300,6 +302,7 @@
 .section3_main .container {
   height: 100%;
   padding: 0 20px;
+  width: 80%;
 }
 .section3_main .container iframe {
   height: 800px;
@@ -416,9 +419,210 @@
     line-height: 20px;
   }
 }
+.section4_main .section4_boxes_title {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  text-align: center;
+  padding: 80px 0 0 0;
+}
+.section4_main .section4_boxes_title span {
+  color: #2cccc4;
+}
+.section4_main .section4_boxes {
+  padding: 0 20px 120px 20px;
+}
+.section4_main .section4_boxes .slick-slider .slick-list .slick-track {
+  display: flex;
+}
+.section4_main .section4_boxes .slick-slider .slick-list .slick-track .slick-slide {
+  height: unset;
+  align-self: stretch;
+}
+.section4_main .section4_boxes .slick-slider .slick-list .slick-track .slick-slide > div {
+  height: 100%;
+  padding: 0 20px;
+}
+@media screen and (max-width: 880px) {
+  .section4_main .section4_boxes .section4_box {
+    padding: 0 10px;
+  }
+}
+.section4_main .section4_boxes .section4_box .make_gap_secttion4 {
+  width: 100%;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  gap: 0 100px;
+  padding: 50px 0;
+}
+@media screen and (max-width: 880px) {
+  .section4_main .section4_boxes .section4_box .make_gap_secttion4 {
+    flex-direction: column;
+    padding: 0px 0;
+  }
+}
+.section4_main .section4_boxes .section4_box .make_gap_secttion4 .secton4_left {
+  width: 50%;
+}
+@media screen and (max-width: 880px) {
+  .section4_main .section4_boxes .section4_box .make_gap_secttion4 .secton4_left {
+    width: 100%;
+  }
+}
+.section4_main .section4_boxes .section4_box .make_gap_secttion4 .secton4_left .section4_left_title {
+  font-size: 30px;
+  line-height: 40px;
+  font-weight: 700;
+  margin: 0 0 12px 0;
+}
+@media screen and (max-width: 880px) {
+  .section4_main .section4_boxes .section4_box .make_gap_secttion4 .secton4_left .section4_left_title {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 700;
+  }
+}
+@media screen and (max-width: 880px) {
+  .section4_main .section4_boxes .section4_box .make_gap_secttion4 .secton4_left .section4_left_title {
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0 0 20px 0;
+  }
+  .section4_main .section4_boxes .section4_box .make_gap_secttion4 .secton4_left .section4_left_title span {
+    color: var(--base_primary);
+  }
+}
+.section4_main .section4_boxes .section4_box .make_gap_secttion4 .secton4_left .section4_left_title span {
+  color: var(--base_primary);
+}
+.section4_main .section4_boxes .section4_box .make_gap_secttion4 .secton4_left .section4_left_desc {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 600;
+  line-height: 1.455 !important;
+  margin: 0 0 28px 0;
+}
+@media screen and (max-width: 880px) {
+  .section4_main .section4_boxes .section4_box .make_gap_secttion4 .secton4_left .section4_left_desc {
+    font-size: 18px;
+    line-height: 27.2px;
+    font-weight: 600;
+  }
+}
+@media screen and (max-width: 880px) {
+  .section4_main .section4_boxes .section4_box .make_gap_secttion4 .secton4_left .section4_left_desc {
+    display: none;
+  }
+}
+.section4_main .section4_boxes .section4_box .make_gap_secttion4 .secton4_left .section4_left_list {
+  font-size: 18px;
+  line-height: 27.2px;
+  font-weight: 400;
+  line-height: 1.455 !important;
+  margin: 0 0 78px 0;
+}
+.section4_main .section4_boxes .section4_box .make_gap_secttion4 .secton4_left .section4_left_list svg {
+  margin: 0 8px 0 0;
+}
+@media screen and (max-width: 880px) {
+  .section4_main .section4_boxes .section4_box .make_gap_secttion4 .secton4_left .section4_left_list {
+    font-size: 14px;
+    line-height: 20.2px;
+    font-weight: 400;
+  }
+}
+@media screen and (max-width: 880px) {
+  .section4_main .section4_boxes .section4_box .make_gap_secttion4 .secton4_left .section4_left_list {
+    display: none;
+  }
+}
+@media screen and (max-width: 880px) {
+  .section4_main .section4_boxes .section4_box .make_gap_secttion4 .secton4_left .section4_btn {
+    display: none;
+  }
+}
+.section4_main .section4_boxes .section4_box .make_gap_secttion4 .secton4_left_mobile {
+  display: none;
+}
+@media screen and (max-width: 880px) {
+  .section4_main .section4_boxes .section4_box .make_gap_secttion4 .secton4_left_mobile {
+    display: block;
+    text-align: center;
+    margin: 30px 0 0 0;
+  }
+}
+.section4_main .section4_boxes .section4_box .make_gap_secttion4 .section4_box_img {
+  height: -moz-fit-content;
+  height: fit-content;
+  position: relative;
+  width: 40%;
+  border-radius: 50px;
+  overflow: hidden;
+}
+@media screen and (max-width: 880px) {
+  .section4_main .section4_boxes .section4_box .make_gap_secttion4 .section4_box_img {
+    width: 100%;
+  }
+}
+.section4_main .section4_boxes .section4_box .make_gap_secttion4 .section4_box_img iframe {
+  border-radius: 20px;
+}
+.section4_main .section4_boxes .section4_box .make_gap_secttion4 .section4_box_img .top_leftbox {
+  position: absolute;
+  top: -31px;
+  left: -25px;
+}
+@media screen and (max-width: 880px) {
+  .section4_main .section4_boxes .section4_box .make_gap_secttion4 .section4_box_img .top_leftbox {
+    display: none;
+  }
+}
+@media screen and (max-width: 880px) {
+  .section4_main .section4_boxes .section4_box .make_gap_secttion4 .section4_box_img .section4_video {
+    width: 100%;
+  }
+}
+.section4_main .section4_boxes .section4_box .make_gap_secttion4 .section4_box_img .bottom_rightbox {
+  position: absolute;
+  bottom: -35px;
+  right: -20px;
+}
+@media screen and (max-width: 880px) {
+  .section4_main .section4_boxes .section4_box .make_gap_secttion4 .section4_box_img .bottom_rightbox {
+    display: none;
+  }
+}
+
+.btns {
+  padding: 15px 40px;
+  font-size: 17px;
+  line-height: 27.2px;
+  font-weight: 600;
+  background-color: var(--yellow);
+  width: -moz-fit-content;
+  width: fit-content;
+  border-radius: 100px;
+  margin: 20px 0 20px 0;
+  box-shadow: 0 5px 1px black;
+  cursor: pointer;
+  transition: box-shadow 0.1s linear;
+}
+@media screen and (max-width: 880px) {
+  .btns {
+    margin: 20px auto 20px auto;
+  }
+}
+.btns:hover {
+  box-shadow: unset;
+}
+
 body {
   margin: 0;
   background-color: var(--base_light);
+  overflow-x: hidden;
 }
 
 ::-webkit-scrollbar {
