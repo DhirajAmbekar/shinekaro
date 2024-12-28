@@ -6,7 +6,7 @@ import { Section3 } from "./pages/Section3";
 import { Section4 } from "./pages/Section4";
 import { Section5 } from "./pages/Section5";
 import { Section6 } from "./pages/Section6";
-import { Section7 } from "./pages/Section7";
+// import { Section7 } from "./pages/Section7";
 
 function App() {
   return (
@@ -17,7 +17,7 @@ function App() {
       <Section4 />
       <Section5 />
       <Section6 />
-      <Section7 />
+      {/* <Section7 /> */}
     </div>
   );
 }
