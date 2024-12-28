@@ -3,8 +3,8 @@ import { Container } from "../components/Container";
 
 export const Section7 = () => {
   return (
-    <Container>
-      <div className="footer_main">
+    <div className="footer_main">
+      <Container>
         <div>
           <div className="title">About Shinekaro</div>
           <div className="desc make_short">
@@ -256,7 +256,7 @@ export const Section7 = () => {
             </div>
           </div>
         </div>
-      </div>
-    </Container>
+      </Container>
+    </div>
   );
 };

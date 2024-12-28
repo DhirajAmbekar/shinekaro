@@ -1,13 +1,15 @@
 .footer_main {
-  display: flex;
-  justify-content: space-between;
-  gap: 20px;
-  padding: 40px 0;
-  color: var(--white);
-  @include mobile {
-    flex-direction: column;
-    padding: 40px;
-    text-align: center;
+  .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px 0;
+    color: var(--white);
+    @include mobile {
+      flex-direction: column;
+      padding: 40px;
+      text-align: center;
+    }
   }
   .title {
     @include f22(700);
