@@ -24,6 +24,7 @@
       @include f22;
       width: 50%;
       @include mobile {
+          @include f14;
         width: 100%;
       }
       span {

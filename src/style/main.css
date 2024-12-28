@@ -748,6 +748,9 @@
 }
 @media screen and (max-width: 880px) {
   .section6_main .section6_detail .section6_detail_ctr {
+    font-size: 14px;
+    line-height: 20.2px;
+    font-weight: 400;
     width: 100%;
   }
 }
