@@ -16,7 +16,7 @@ export const Section1 = () => {
         <div className="section1_left_btn">FREE eBook</div>
       </div>
       <div className="section1_right">
-        <img src="https://shinekaro.in/childeducation/images/Bg1.png" />
+        <img alt="imgfailed" src="https://shinekaro.in/childeducation/images/Bg1.png" />
       </div>
     </div>
   );

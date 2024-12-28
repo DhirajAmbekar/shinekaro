@@ -88,7 +88,7 @@ export const Section2 = () => {
               {future?.map((el, i) => (
                 <div key={i} className="section2_box">
                   <div className="section2_box_inner">
-                    <img src={el.img} />
+                    <img src={el.img} alt="imgfailed" />
                     <div className="section2_box_title">{el.name}</div>
                     <div className="section2_box_desc">{el.desc}</div>
                   </div>

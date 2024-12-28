@@ -74,7 +74,7 @@ export const Section4 = () => {
             {section4?.map((el, i) => (
               <div key={i} className="ourpurpose_section2_box">
                 <div className="ourpurpose_section2_box_inner">
-                  <img src={el.img} />
+                  <img src={el.img} alt="imgfailed"/>
                   <div className="ourpurpose_section2_box_name">{el.name}</div>
                   <div className="ourpurpose_section2_box_desc">{el.desc}</div>
                 </div>
