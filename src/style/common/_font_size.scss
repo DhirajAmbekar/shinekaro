@@ -1,0 +1,57 @@
+$const_font_weight: 400;
+
+@mixin font_generator($font_size, $line_height, $weight) {
+  font-size: calc($font_size * 1px);
+  line-height: calc($line_height * 1px);
+  font-weight: $weight;
+}
+
+@mixin f14($weight: $const_font_weight) {
+  @include font_generator(14, 20.2, $weight);
+  @include mobile {
+    @content;
+  }
+}
+@mixin f16($weight: $const_font_weight) {
+  @include font_generator(16, 24.2, $weight);
+  @include mobile {
+    @content;
+  }
+}
+@mixin f17($weight: $const_font_weight) {
+  @include font_generator(17, 27.2, $weight);
+  @include mobile {
+    @content;
+  }
+}
+@mixin f18($weight: $const_font_weight) {
+  @include font_generator(18, 27.2, $weight);
+  @include mobile {
+    @content;
+  }
+}
+@mixin f22($weight: $const_font_weight) {
+  @include font_generator(22, 32, $weight);
+  @include mobile {
+    @content;
+  }
+}
+@mixin f30($weight: $const_font_weight) {
+  @include font_generator(30, 40, $weight);
+  @include mobile {
+    @content;
+  }
+}
+@mixin f35($weight: $const_font_weight) {
+  @include font_generator(35, 45, $weight);
+  @include mobile {
+    @content;
+  }
+}
+
+@mixin f40($weight: $const_font_weight) {
+  @include font_generator(40, 50, $weight);
+  @include mobile {
+    @content;
+  }
+}

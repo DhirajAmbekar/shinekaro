@@ -1,0 +1,108 @@
+.section1 {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 100px;
+  gap: 0 100px;
+  overflow: hidden;
+  @include mobile {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .whole_img {
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://www.avivaindia.com/sites/default/files/Child_Image_4.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    filter: blur(2px);
+    @include mobile {
+      background-position: 43%;
+    }
+  }
+  .section1_left {
+    width: 50%;
+    z-index: 10;
+    animation: textanimation 0.6s ease-in-out;
+    @keyframes textanimation {
+      0% {
+        transform: translateX(-1000%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
+
+    @include mobile {
+      width: 100%;
+      text-align: center;
+    }
+    .section1_left_title {
+      @include f40(700);
+      color: var(--base);
+      margin: 0 0 20px 0;
+      text-shadow: 0 2px 1px black;
+
+      span {
+        color: var(--yellow);
+      }
+    }
+    .section1_left_desc {
+      @include f22(500);
+      color: var(--black);
+      width: 99%;
+      @include mobile {
+        width: unset;
+        @include f17;
+      }
+    }
+    .section1_left_btn {
+      padding: 15px 40px;
+      @include f17(600);
+      background-color: var(--yellow);
+      width: fit-content;
+      border-radius: 100px;
+      margin: 20px 0 0 0;
+      box-shadow: 0 5px 1px black;
+      cursor: pointer;
+      transition: box-shadow 0.1s linear;
+      @include mobile {
+        margin: 20px auto 0 auto;
+      }
+      &:hover {
+        box-shadow: unset;
+      }
+    }
+  }
+  .section1_right {
+    width: 50%;
+    z-index: 10;
+    border-radius: 40px;
+    overflow: hidden;
+    box-shadow: 2px 2px 1px var(--yellow);
+    background-color: white;
+    animation: imageanimation 0.6s ease-in-out;
+    @keyframes imageanimation {
+      0% {
+        transform: translateX(1000%);
+      }
+      100% {
+        transform: translateX(0%);
+      }
+    }
+    @include mobile {
+      display: none;
+    }
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+}
