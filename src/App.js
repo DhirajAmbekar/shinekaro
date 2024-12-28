@@ -10,7 +10,7 @@ import { Section7 } from "./pages/Section7";
 
 function App() {
   return (
-    <>
+    <div className="main_app">
       <Section1 />
       <Section2 />
       <Section3 />
@@ -18,7 +18,7 @@ function App() {
       <Section5 />
       <Section6 />
       <Section7 />
-    </>
+    </div>
   );
 }
 

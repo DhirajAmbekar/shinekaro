@@ -867,4 +867,8 @@ body {
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
+}
+
+.main_app > div {
+  border: 2px solid red;
 }/*# sourceMappingURL=main.css.map */
