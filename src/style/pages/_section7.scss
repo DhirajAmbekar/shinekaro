@@ -32,6 +32,9 @@
   .make_short {
     width: 400px;
     margin: 10px auto;
+    @include mobile {
+      max-width: 400px;
+    }
   }
   .socail_media_list {
     display: flex;

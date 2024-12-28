@@ -1,4 +1,5 @@
 import React from "react";
+import Base from "../assets/Bg1.png";
 
 export const Section1 = () => {
   return (
@@ -16,7 +17,7 @@ export const Section1 = () => {
         <div className="section1_left_btn">FREE eBook</div>
       </div>
       <div className="section1_right">
-        <img alt="imgfailed" src="https://shinekaro.in/childeducation/images/Bg1.png" />
+        <img alt="imgfailed" src={Base} />
       </div>
     </div>
   );

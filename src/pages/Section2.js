@@ -1,6 +1,11 @@
 import React, { useRef } from "react";
 import Slider from "react-slick";
 import { Container } from "../components/Container";
+import future1 from "../assets/9717870-6d8e0db1.png";
+import future2 from "../assets/1721094-1c233052.png";
+import future3 from "../assets/1253747-53e1c493.png";
+import future4 from "../assets/1604806-10d77e5d.png";
+import future5 from "../assets/1322818-a8aa10cd.png";
 
 export const Section2 = () => {
   const slideSection = useRef();
@@ -33,27 +38,27 @@ export const Section2 = () => {
     {
       name: "Rising Cost",
       desc: "The cost of higher education and marriage doubles every 10 years.",
-      img: "https://shinekaro.in/childeducation/images/1322818-a8aa10cd.png",
+      img: future5,
     },
     {
       name: "Competitive World",
       desc: "Provide your child the best opportunities to excel.",
-      img: "https://shinekaro.in/childeducation/images/1322818-a8aa10cd.png",
+      img: future1,
     },
     {
       name: "Peace of Mind",
       desc: "Stay ahead of future uncertainties with a secured fund.",
-      img: "https://shinekaro.in/childeducation/images/1322818-a8aa10cd.png",
+      img: future2,
     },
     {
       name: "Dream Big",
       desc: "Support your child’s aspirations without financial constraints.",
-      img: "https://shinekaro.in/childeducation/images/1322818-a8aa10cd.png",
+      img: future3,
     },
     {
       name: "Better Education",
       desc: "Your proper guidance today, their success tomorrow.",
-      img: "https://shinekaro.in/childeducation/images/1322818-a8aa10cd.png",
+      img: future4,
     },
   ];
   return (
