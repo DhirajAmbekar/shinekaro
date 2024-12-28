@@ -812,7 +812,8 @@
 }
 @media screen and (max-width: 880px) {
   .footer_main .make_short {
-    max-width: 400px;
+    width: -moz-fit-content;
+    width: fit-content;
   }
 }
 .footer_main .socail_media_list {
@@ -872,8 +873,4 @@ body {
   width: 100%;
   max-width: 1600px;
   margin: 0 auto;
-}
-
-.main_app > div {
-  border: 2px solid red;
 }/*# sourceMappingURL=main.css.map */
