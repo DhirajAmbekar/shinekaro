@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef } from "react";
 import { Container } from "../components/Container";
 import Slider from "react-slick";
 import Imgpg1 from "../assets/pg1.png";
@@ -14,7 +14,7 @@ import Gurantee from "../assets/guaranteed-returns_31CDwt7c.png";
 export const Section4 = () => {
   const slideSection4 = useRef();
   const slideTO = useRef();
-  const [state, setState] = useState(0);
+
   var section4_variance = {
     dots: true,
     infinite: true,
@@ -55,8 +55,6 @@ export const Section4 = () => {
     autoplaySpeed: 2500,
     swipeToSlide: true,
     arrows: false,
-    // cssEase: ""
-    afterChange: (a) => setState(a),
   };
   const section4 = [
     {
@@ -202,6 +200,7 @@ export const Section4 = () => {
                       <img
                         style={{ maxWidth: "100%", maxHeight: "100%" }}
                         src={el.img}
+                        alt="imgfail"
                       />
                     </div>
                   </div>
