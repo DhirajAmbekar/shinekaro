@@ -1,0 +1,50 @@
+.section6_main {
+  clip-path: polygon(0 6%, 100% 0%, 100% 94%, 0% 100%);
+  background-color: white;
+  min-height: 100vh;
+  height: fit-content;
+  width: 100%;
+  padding: 120px 20px 0 20px;
+  @include mobile {
+    padding: 120px 20px 80px 20px;
+  }
+  .section6_title {
+    @include f30(700);
+    text-align: center;
+    margin: 0 0 40px 0;
+  }
+  .section6_detail {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    @include mobile {
+      flex-direction: column;
+    }
+    .section6_detail_ctr {
+      @include f22;
+      width: 50%;
+      @include mobile {
+        width: 100%;
+      }
+      span {
+        font-weight: 700 !important;
+      }
+    }
+    .section6_detail_ctr2 {
+      @include f22;
+      width: 40%;
+      @include mobile {
+        width: 100%;
+      }
+      img {
+        width: 100%;
+        height: auto;
+        border-radius: 20px;
+      }
+      .section6_detail_ctr2_n_p {
+        text-align: center;
+        @include f22(700);
+      }
+    }
+  }
+}
